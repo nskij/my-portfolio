@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import '../App.css';
 
-export default class App extends Component {
+export default class Top extends Component {
   render() {
     return(
-      <Router>
-        <React.Fragment>
-
-          
-
-        </React.Fragment>
-      </Router>
+      <div>
+      </div>
     );
   }
 }
