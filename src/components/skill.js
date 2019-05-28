@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-export default class Top extends Component {
+export default class Slill extends Component {
   render() {
     return(
       <div>
-        <p>成果物を紹介するページです。</p>
+        <p>使える技術についてです。</p>
       </div>
     );
   }

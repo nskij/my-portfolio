@@ -7,6 +7,12 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 
+import Top from './top';
+import About from './about';
+import Skill from './skill';
+import Works from './works';
+import Contact from './contact';
+
 
 
 function TabContainer(props) {
@@ -52,20 +58,20 @@ function handleChange(event, newValue) {
         <div className="container">
           <h1 className="title">@nskij Portfolio</h1>
           <Tabs value={value} onChange={handleChange} >
-            <LinkTab label="Top" href="/" />
-            <LinkTab label="About" href="/about" />
-            <LinkTab label="Works" href="/works" />
-            <LinkTab label="Garally" href="/" />
-            <LinkTab label="Contact" href="/contact" />
+            <LinkTab label="Top"/>
+            <LinkTab label="About"/>
+            <LinkTab label="Skill" />
+            <LinkTab label="Works" />
+            <LinkTab label="Contact" />
           </Tabs>
           <div>GitHub</div>
         </div>
       </AppBar>
-      {value === 0 && <TabContainer>Top Page</TabContainer>}
-      {value === 1 && <TabContainer>about nskij</TabContainer>}
-      {value === 2 && <TabContainer>works</TabContainer>}
-      {value === 3 && <TabContainer>garally</TabContainer>}
-      {value === 4 && <TabContainer>contact</TabContainer>}
+      {value === 0 && <TabContainer><Top /></TabContainer>}
+      {value === 1 && <TabContainer><About /></TabContainer>}
+      {value === 2 && <TabContainer><Works /></TabContainer>}
+      {value === 3 && <TabContainer><Skill /></TabContainer>}
+      {value === 4 && <TabContainer><Contact /></TabContainer>}
     </ThemeProvider>
   );
 }

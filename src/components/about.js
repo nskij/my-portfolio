@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router} from "react-router-dom";
+import '../App.css';
 
-export default class App extends Component {
+export default class Top extends Component {
   render() {
     return(
-      <Router>
-        <React.Fragment>
-      
-          
-
-        </React.Fragment>
-      </Router>
+      <div>
+        <p>nskijの経歴やスキルについてです。</p>
+      </div>
     );
   }
 }

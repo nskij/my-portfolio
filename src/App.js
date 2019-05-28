@@ -13,7 +13,7 @@ export default class App extends Component {
         <React.Fragment>
             <div className="row">
               <Switch>
-                <Route exact path="/" component={MenuTabs} />
+                <Route exact path = "/" component = { MenuTabs } />
               </Switch>
             </div>
         </React.Fragment>
