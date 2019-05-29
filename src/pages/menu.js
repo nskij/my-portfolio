@@ -29,8 +29,8 @@ TabContainer.propTypes = {
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: '#B2D6B5' }, // Purple and green play nicely together.
-    secondary: { main: '#19A591' }, // This is just green.A700 as hex.
+    primary: { main: '#B2D6B5' },
+    secondary: { main: '#19A591' },
   },
 });
 
@@ -56,15 +56,14 @@ function handleChange(event, newValue) {
     <ThemeProvider theme={theme}>
       <AppBar position="static">
         <div className="container">
-          <h1 className="title">@nskij Portfolio</h1>
+          <h1 className="title">@nskij</h1>
           <Tabs value={value} onChange={handleChange} >
             <LinkTab label="Top"/>
             <LinkTab label="About"/>
-            <LinkTab label="Skill" />
             <LinkTab label="Works" />
+            <LinkTab label="Skill" />
             <LinkTab label="Contact" />
           </Tabs>
-          <div>GitHub</div>
         </div>
       </AppBar>
       {value === 0 && <TabContainer><Top /></TabContainer>}

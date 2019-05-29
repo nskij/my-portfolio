@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-export default class Top extends Component {
+export default class Works extends Component {
   render() {
     return(
       <div>
-        <p>nskijの経歴やスキルについてです。</p>
+        <p>成果物を紹介するページです。</p>
       </div>
     );
   }
