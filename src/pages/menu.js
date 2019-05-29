@@ -27,8 +27,8 @@ TabContainer.propTypes = {
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: '#B2D6B5' }, //green
-    secondary: { main: '#19A591' },
+    primary: { main: '#92D2DB' },
+    secondary: { main: '#E9609E' },
   },
 });
 

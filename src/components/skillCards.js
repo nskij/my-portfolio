@@ -6,7 +6,7 @@ class SkillCard extends Component {
   render(){
       return (
         <React.Fragment>
-            <div className = "skill">
+            <div className = "card">
               <Typography variant="h5" component="h3">
                 {this.props.skill}
               </Typography>

@@ -7,12 +7,12 @@ export default class Skill extends Component {
 
     const skillList = [
       {
-        skill: 'HTML & CSS',
-        explain: '実務レベル。Haml, Sassも使えます。最近はCSSアニメーションにちょっと興味あり。',
+        skill: 'HTML / CSS',
+        explain: '実務レベル。Haml, Sassも使えます。Bootstrap4は使いすぎて失敗した苦い経験あり...',
       }, 
       {
-        skill: 'JavaScript',
-        explain: '初心者。実務でjQueryを少し扱っていました。退職後に改めて学習してReactに着手。',
+        skill: 'JavaScript (ES6)',
+        explain: '初心者。実務でjQueryを少し扱っていました。退職後に改めて学習してReactに着手。TypeScript使いたい。',
       },
       {
         skill: 'Java',
@@ -31,8 +31,8 @@ export default class Skill extends Component {
         explain: '基本的な処理は書けます。実務ではOracle, MySQLを使ってました。',
       },
       {
-        skill: 'BootStrap4',
-        explain: '前職でゴリゴリ使いすぎて失敗した苦い経験あり。適材適所を心がけます。',
+        skill: 'Git / GitHub',
+        explain: 'rebase, stash, コミットまとめはできるくらいのレベル。お世話になってます。',
       },
       {
         skill: 'KARTE',
@@ -51,7 +51,7 @@ export default class Skill extends Component {
       },
       {
         skill: 'Sketch',
-        explain: 'YouTubeの解説（英語）で基礎を学んで練習中。DiaryUIを年内に100項目達成するのが目標。',
+        explain: 'YouTubeの解説（英語）で基礎を学んで練習中。DiaryUIを年内に100個達成するのが目標。',
       },
     ];
 
