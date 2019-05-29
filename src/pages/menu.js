@@ -13,8 +13,6 @@ import Skill from './skill';
 import Works from './works';
 import Contact from './contact';
 
-
-
 function TabContainer(props) {
   return (
     <Typography component="div" style={{ padding: 8 * 3 }}>
@@ -29,7 +27,7 @@ TabContainer.propTypes = {
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: '#B2D6B5' },
+    primary: { main: '#B2D6B5' }, //green
     secondary: { main: '#19A591' },
   },
 });

@@ -39,12 +39,16 @@
 
 .skill {
   display: inline-block;
-  height: 100px;
-  max-width: 300px;
-  background: #61dafb;
   margin: 10px;
+  padding: 10px;
+  height: 100px;
+  width: 350px;
+  background: #AFC0E2;
 }
 
+.green > .skill {
+  background: #A4C8C2;
+}
 
 @keyframes App-logo-spin {
   from {
