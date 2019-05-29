@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import MenuTabs from './components/menu';
+import MenuTabs from './pages/menu';
+import Skill from './pages/skill';
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,8 @@ export default class App extends Component {
         <React.Fragment>
             <div className="row">
               <Switch>
-                <Route exact path="/" component={MenuTabs} />
+                <Route exact path = "/" component = { MenuTabs } />
+                <Route path = "/works" component = { Skill } />
               </Switch>
             </div>
         </React.Fragment>
