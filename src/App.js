@@ -6,9 +6,9 @@ import Skill from './pages/skill';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faCheckSquare, faCoffee) //あらかじめ使用するアイコンを追加しておく
+library.add(fab, faMailBulk) //あらかじめ使用するアイコンを追加しておく
 
 export default class App extends Component {
   render() {
