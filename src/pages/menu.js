@@ -54,8 +54,15 @@ function handleChange(event, newValue) {
     <ThemeProvider theme={theme}>
       <AppBar position="static">
         <div className="container">
-          <h1 className="title">@nskij</h1>
-          <Tabs value={value} onChange={handleChange} >
+          <a href="/">
+            <h1 className="title">@nskij</h1>
+          </a>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            variant="scrollable"
+            scrollButtons="on"
+          >
             <LinkTab label="Top"/>
             <LinkTab label="About"/>
             <LinkTab label="Works" />

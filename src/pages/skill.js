@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import SkillCards from '../components/skillCards';
+import SkillCards from '../components/skillCard';
 
 export default class Skill extends Component {
   render() {
@@ -8,7 +8,7 @@ export default class Skill extends Component {
     const skillList = [
       {
         skill: 'HTML / CSS',
-        explain: '実務レベル。Haml, Sassも使えます。Bootstrap4は使いすぎて失敗した苦い経験あり...',
+        explain: '実務レベル。Haml, Sassも使えます。Bootstrap4は使いすぎて失敗した苦い経験があります...。',
       }, 
       {
         skill: 'JavaScript (ES6)',
@@ -62,9 +62,9 @@ export default class Skill extends Component {
           {skillList.map((skillItem) => {
             return (
               <SkillCards 
-              skill = {skillItem.skill}
-              explain = {skillItem.explain}
-            />
+                skill = {skillItem.skill}
+                explain = {skillItem.explain}
+              />
             );
           })}
         </div>
@@ -73,9 +73,9 @@ export default class Skill extends Component {
           {interestsList.map((interestItem) => {
             return (
               <SkillCards 
-              skill = {interestItem.skill}
-              explain = {interestItem.explain}
-            />
+                skill = {interestItem.skill}
+                explain = {interestItem.explain}
+              />
             );
           })}
         </div>
