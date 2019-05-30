@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import SkillCards from '../components/skillCards';
+import SkillCards from '../components/skillCard';
 
 export default class Skill extends Component {
   render() {
@@ -8,7 +8,7 @@ export default class Skill extends Component {
     const skillList = [
       {
         skill: 'HTML / CSS',
-        explain: '実務レベル。Haml, Sassも使えます。Bootstrap4は使いすぎて失敗した苦い経験あり...',
+        explain: '実務レベル。Haml, Sassも使えます。Bootstrap4は使いすぎて失敗した苦い経験があります...。',
       }, 
       {
         skill: 'JavaScript (ES6)',
