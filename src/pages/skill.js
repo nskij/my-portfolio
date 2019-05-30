@@ -62,9 +62,9 @@ export default class Skill extends Component {
           {skillList.map((skillItem) => {
             return (
               <SkillCards 
-              skill = {skillItem.skill}
-              explain = {skillItem.explain}
-            />
+                skill = {skillItem.skill}
+                explain = {skillItem.explain}
+              />
             );
           })}
         </div>
@@ -73,9 +73,9 @@ export default class Skill extends Component {
           {interestsList.map((interestItem) => {
             return (
               <SkillCards 
-              skill = {interestItem.skill}
-              explain = {interestItem.explain}
-            />
+                skill = {interestItem.skill}
+                explain = {interestItem.explain}
+              />
             );
           })}
         </div>
