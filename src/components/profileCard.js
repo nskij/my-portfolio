@@ -4,9 +4,7 @@ import Typography from '@material-ui/core/Typography';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   card: {
@@ -29,13 +27,19 @@ function SimpleCard() {
         <Typography variant="h5" component="h2">
           About @nskij
         </Typography>
+        <br />
         <Typography className={classes.pos} color="textSecondary">
-          adjective
+          birthday: 1993/05/26
+          <br />
+          GitHub: <a href="https://github.com/nskij">https://github.com/nskij</a>
+          <br />
+          hatena: <a href="https://nskij.hatenablog.com/">https://nskij.hatenablog.com/</a>
+          <br />
+          Qiita: <a href="https://qiita.com/nskij">https://qiita.com/nskij</a>
+          <br />
+          Diary: <a href="https://stella-app.jp/user?id=bVswE3Q69yYBtmlJm7VvUyD1bIl1">https://stella-app.jp</a>
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
     </Card>
   );
 }
