@@ -38,8 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nskij.github.io/my-portfolio/",
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "homepage": "https://nskij.github.io/my-portfolio/"
 }
