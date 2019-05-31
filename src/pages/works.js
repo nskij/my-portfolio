@@ -46,7 +46,7 @@ function Works() {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <a href="http://twitter.com/share?url=https://nskij.github.io/my-portfolio/&text=@n_skijのポートフォリオを紹介！" class="twitter-share-button" target="_blank" rel="noopener noreferrer"><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="http://twitter.com/share?url=https://nskij.github.io/my-portfolio/&text=@n_skijのポートフォリオを紹介！" className="twitter-share-button" target="_blank" rel="noopener noreferrer"><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
             <Button size="small" color="primary">
               <FontAwesomeIcon icon={['fab', 'twitter']} />&ensp;Share
             </Button>
