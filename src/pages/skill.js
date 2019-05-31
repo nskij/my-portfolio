@@ -59,9 +59,10 @@ export default class Skill extends Component {
       <React.Fragment>
         <span>チョットデキル</span>
         <div className = "card-container">
-          {skillList.map((skillItem) => {
+          {skillList.map((skillItem, index) => {
             return (
               <SkillCards 
+                key = {index}
                 skill = {skillItem.skill}
                 explain = {skillItem.explain}
               />
@@ -70,9 +71,10 @@ export default class Skill extends Component {
         </div>
         <span>興味あり</span>
         <div className = "card-container green">
-          {interestsList.map((interestItem) => {
+          {interestsList.map((interestItem, index) => {
             return (
               <SkillCards 
+                key = {index}
                 skill = {interestItem.skill}
                 explain = {interestItem.explain}
               />
