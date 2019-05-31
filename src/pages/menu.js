@@ -54,7 +54,7 @@ function handleChange(event, newValue) {
     <ThemeProvider theme={theme}>
       <AppBar position="static">
         <div className="container">
-          <a href="/">
+          <a href="/my-portfolio/">
             <h1 className="title">@nskij</h1>
           </a>
           <Tabs
