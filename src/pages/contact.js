@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../App.css';
 import Fab from '@material-ui/core/Fab';
+import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
 export default class Contact extends Component {
 
@@ -13,6 +14,9 @@ export default class Contact extends Component {
           <Fab variant="extended" color="primary" aria-label="Add" href="https://twitter.com/n_skij" target="_blank" rel="noopener noreferrer" >
             <FontAwesomeIcon icon={['fab', 'twitter']} />&ensp;Twitter
           </Fab>
+          <address>
+            <span><FontAwesomeIcon icon={ faMailBulk } />nskij0123[アットマーク]gmail.com</span>
+          </address>
         </div>
       </React.Fragment>
     );
