@@ -15,7 +15,7 @@ export default class Contact extends Component {
             <FontAwesomeIcon icon={['fab', 'twitter']} />&ensp;Twitter
           </Fab>
           <address>
-            <span><FontAwesomeIcon icon={ faMailBulk } />nskij0123[アットマーク]gmail.com</span>
+            <span><FontAwesomeIcon icon={ faMailBulk } />n.skij0123[アットマーク]gmail.com</span>
           </address>
         </div>
       </React.Fragment>
