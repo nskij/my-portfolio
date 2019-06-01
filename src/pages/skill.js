@@ -4,7 +4,6 @@ import SkillCards from '../components/skillCard';
 
 export default class Skill extends Component {
   render() {
-
     const skillList = [
       {
         skill: 'HTML / CSS',
@@ -39,7 +38,6 @@ export default class Skill extends Component {
         explain: '超基礎を理解している程度。実務で配信用メールテンプレートを作成。',
       }
     ];
-
     const interestsList = [
       {
         skill: 'UI / UX',
@@ -82,7 +80,6 @@ export default class Skill extends Component {
           })}
         </div>
       </React.Fragment>
-
     );
   }
 }

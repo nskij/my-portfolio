@@ -18,10 +18,8 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
 });
-
 function SimpleCard() {
   const classes = useStyles();
-
   return (
     <Card className={classes.card}>
       <CardContent>
