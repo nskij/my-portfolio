@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
-import ProfileCard from '../components/profileCard';
+import AboutCard from '../components/aboutCard';
 
 export default class About extends Component {
   render() {
     return(
       <React.Fragment>
         <div>
-          <ProfileCard/>
+          <AboutCard/>
         </div>
       </React.Fragment>
 
