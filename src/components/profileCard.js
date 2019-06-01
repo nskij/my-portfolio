@@ -8,7 +8,8 @@ import CardContent from '@material-ui/core/CardContent';
 
 const useStyles = makeStyles({
   card: {
-    minWidth: 400,
+    minWidth: 200,
+    maxWidth: 400
   },
   title: {
     fontSize: 14,
