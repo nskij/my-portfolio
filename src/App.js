@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.scss';
 import MenuTab from './pages/menuTab';
 
@@ -8,12 +8,12 @@ import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faMailBulk) //あらかじめ使用するアイコンを追加しておく
 
-export default class App extends Component {
-  render() {
-    return(
-      <div>
-        <MenuTab />
-      </div>
-    );
-  }
-}
+function App() {
+  return(
+    <React.Fragment>
+      <MenuTab />
+    </React.Fragment>
+  );
+};
+
+export default App;

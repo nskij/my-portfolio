@@ -32,7 +32,7 @@ function Works() {
               className={classes.media}
               height="200"
               title="portfolio"
-              image="/my-portfolio/my-portfolio.png"
+              image="../assets/my-portfolio.png"
             />
           </a>
           <CardContent>
