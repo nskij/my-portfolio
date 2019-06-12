@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Top extends Component {
-  render() {
-    return(
-      <div>
-        <p>React学習の成果物として作成したポートフォリオです。</p>
-      </div>
-    );
-  }
+function Top() {
+  return(
+    <React.Fragment>
+      <p>React学習の成果物として作成したポートフォリオです。</p>
+    </React.Fragment>
+  );
 }
+
+export default Top;

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import '../App.scss';
 import SkillCards from '../components/skillCard';
 
-export default class Skill extends Component {
-  render() {
+function Skill() {
     const skillList = [
       {
         skill: 'HTML / CSS',
@@ -52,33 +52,34 @@ export default class Skill extends Component {
       },
     ];
 
-    return(
-      <React.Fragment>
-        <span>チョットデキル</span>
-        <div className = "card-container">
-          {skillList.map((skillItem, index) => {
-            return (
-              <SkillCards 
-                key = {index}
-                skill = {skillItem.skill}
-                explain = {skillItem.explain}
-              />
-            );
-          })}
-        </div>
-        <span>興味あり</span>
-        <div className = "card-container green">
-          {interestsList.map((interestItem, index) => {
-            return (
-              <SkillCards 
-                key = {index}
-                skill = {interestItem.skill}
-                explain = {interestItem.explain}
-              />
-            );
-          })}
-        </div>
-      </React.Fragment>
-    );
-  }
+  return(
+    <React.Fragment>
+      <span>チョットデキル</span>
+      <div className = "card-container">
+        {skillList.map((skillItem, index) => {
+          return (
+            <SkillCards 
+              key = {index}
+              skill = {skillItem.skill}
+              explain = {skillItem.explain}
+            />
+          );
+        })}
+      </div>
+      <span>興味あり</span>
+      <div className = "card-container green">
+        {interestsList.map((interestItem, index) => {
+          return (
+            <SkillCards 
+              key = {index}
+              skill = {interestItem.skill}
+              explain = {interestItem.explain}
+            />
+          );
+        })}
+      </div>
+    </React.Fragment>
+  );
 }
+
+export default Skill;

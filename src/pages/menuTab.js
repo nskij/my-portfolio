@@ -21,34 +21,34 @@ function TabContainer(props) {
   );
 }
 
-TabContainer.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+  TabContainer.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
 
-const theme = createMuiTheme({
-  palette: {
-    primary: { main: '#92D2DB' },
-    secondary: { main: '#E9609E' },
-  },
-});
+  const theme = createMuiTheme({
+    palette: {
+      primary: { main: '#92D2DB' },
+      secondary: { main: '#E9609E' },
+    },
+  });
 
-function LinkTab(props) {
-  return (
-    <Tab
-      onClick={event => {
-        event.preventDefault();
-      }}
-      {...props}
-    />
-  );
-}
+  function LinkTab(props) {
+    return (
+      <Tab
+        onClick={event => {
+          event.preventDefault();
+        }}
+        {...props}
+      />
+    );
+  }
 
-function MenuTabs() {
-const [value, setValue] = React.useState(0);
+  function MenuTabs() {
+  const [value, setValue] = React.useState(0);
 
-function handleChange(event, newValue) {
-  setValue(newValue);
-}
+  function handleChange(event, newValue) {
+    setValue(newValue);
+  }
 
   return(
     <ThemeProvider theme={theme}>
