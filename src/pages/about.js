@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import '../App.scss';
+import React from 'react';
 import AboutCard from '../components/aboutCard';
 
-export default class About extends Component {
-  render() {
-    return(
+function About() {
+  return(
       <React.Fragment>
         <div>
           <AboutCard/>
         </div>
       </React.Fragment>
-
-    );
-  }
+  );
 }
+
+export default About;

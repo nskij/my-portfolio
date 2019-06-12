@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-import MenuTabs from './pages/menu';
+import MenuTab from './pages/menuTab';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     return(
       <div>
-        <MenuTabs />
+        <MenuTab />
       </div>
     );
   }

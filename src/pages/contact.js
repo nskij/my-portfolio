@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../App.scss';
 import Fab from '@material-ui/core/Fab';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
-export default class Contact extends Component {
-
-  render() {
-    return(
+function Contact() {
+  return (
       <React.Fragment>
           <p>連絡先はこちら。（そのうちメールフォーム作ります）</p>
         <div className="contacts">
@@ -19,6 +16,7 @@ export default class Contact extends Component {
           </address>
         </div>
       </React.Fragment>
-    );
-  }
+  );
 }
+
+export default Contact;
