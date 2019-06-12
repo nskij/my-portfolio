@@ -3,5 +3,6 @@
 ![alt](src/assets/my-portfolio.png)
 
 ## Technology
-- HTML/CSS
+- HTML
+- Sass
 - React
