@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import MenuTabs from './pages/menu';
 
 import { library } from '@fortawesome/fontawesome-svg-core'

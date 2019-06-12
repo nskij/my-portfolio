@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../App.css';
+import '../App.scss';
 
 // カード用部品
 import { makeStyles } from '@material-ui/core/styles';

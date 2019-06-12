@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../App.css';
+import '../App.scss';
 import Fab from '@material-ui/core/Fab';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
 

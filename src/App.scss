@@ -45,25 +45,22 @@
   min-height: 120px;
   width: 350px;
   border: solid 1px #f3abae;
-  background: rgb(243, 171, 174, 0.2)
-}
-
-.card h3 {
-  padding: 5px 10px;
-  font-size: 18px;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  color: #E9609E;
-}
-
-.card p {
-  padding: 0 10px;
+  background: rgba(#f3abae, 0.2);
+  h3 {
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: #E9609E;
+  }
+  p {
+    padding: 0 10px;
+  }
 }
 
 .green > .card {
-  background: rgb(146, 210, 219, 0.4);
+  background: rgba(#92d2db, 0.4);
 }
-
 
 /* button */
 .twitter-share-button {

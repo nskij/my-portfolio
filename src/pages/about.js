@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../App.scss';
 import AboutCard from '../components/aboutCard';
 
 export default class About extends Component {
