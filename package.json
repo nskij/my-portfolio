@@ -38,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nskij.github.io/my-portfolio/"
+  "homepage": "https://nskij.github.io/my-portfolio/",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }

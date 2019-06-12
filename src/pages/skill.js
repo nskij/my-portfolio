@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../App.scss';
 import SkillCards from '../components/skillCard';
 
 export default class Skill extends Component {
